@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github profile searcher</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-logo">
+        <div class="logo">
+          <img src="assets/github-logo.png" alt="github-logo" />
+        </div>
+        <h1>Github profiles searcher</h1>
+      </div>
+      <p class="Integrantes">Nathan Ospino e Isaac Jacome</p>
+    </div>
+
+    <form class="user-searcher" id="form" onsubmit="return formSubmit()">
+      <input
+        type="text"
+        id="busqueda"
+        autofocus
+        placeholder="Inserte el usuario a buscar..."
+      />
+    </form>
+    <main id="main"></main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
