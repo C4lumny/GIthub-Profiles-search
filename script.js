@@ -32,8 +32,6 @@ const getGithubUser = async (username) => {
   console.log(userData);
 };
 
-getGithubUser("C4lumny");
-
 const formSubmit = (e) => {
   if (input.value != "") {
     getGithubUser(input.value);
